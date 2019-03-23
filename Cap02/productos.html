@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <title>Bienvenido a Cibertec Web Site</title>
+    <link href="styles/stylesSASS.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <a class="headerLogo" href="index.html">
+            <img src="images/cibertec.jpg" />
+        </a>
+        <nav class="dropdown">
+            <button class="menu-title">Menu</button>
+            <ul class="dropdown-content">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="productos.html">Nuestros Productos</a></li>
+                <li><a href="ubicanos.html">Ubicanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h3>Nuestros productos:</h3>
+    </section>
+    <section>
+        <h4>Curso de HTML5</h4>
+        <video preload="auto" width="320" height="240" id="video" controls>
+            <source src="videos/movie.mp4" type="video/mp4" />
+            Tu navegador no soporta el elemento video
+        </video>
+    </section>
+    <section>
+        <h4>Curso de Javascript</h4>
+        <audio controls>
+            <source src="audios/horse.mp3" type="audio/mp3" />
+            Tu navegador no soporta el elemento audio
+        </audio>
+    </section>
+    <footer>
+        Nuestra dirección
+        &copy; Todos los derechos reservados a Cibertec - <span id="date"></span>
+    </footer>
+</body>
+</html>
