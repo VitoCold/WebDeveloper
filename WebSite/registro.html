@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="Styles/stylesSASS.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <header>
+        <a class="headerLogo" href="Index.html">
+            <img src="Imagenes/rock600x400.jpg" />
+        </a>
+        <nav>
+            <button class="menu-title">Menu</button>
+            <ul class="dropdown-content">
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="productos.html">Nuestro productos</a></li>
+                <li><a href="ubicanos.html">Ubicanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+       <h3>Registro</h3>
+        <form>
+            <p>
+                <h4>Experiencia laboral:</h4>
+                EF:<input type="number" value="0" min="0" step="0.1" /><br />
+                ADO:<input type="number" value="0" min="0"/><br />
+                MVC:<input type="number" value="0" min="0"/><br />
+                Javascript:<input type="number" value="0" min="0" /><br />
+            </p>
+            <p>
+                Código:<input type="text" value="F12423" readonly/>
+            </p>
+            <p>
+                <datalist id="browsers">
+                    <option value="Chrome"></option>
+                    <option value="Firefox"></option>
+                    <option value="Opera"></option>
+                    <option value="Safari"></option>
+                    <option value="IE"></option>
+                </datalist>
+                Browser preferido: <input list="browsers" />
+            </p>
+            <p>
+                Nombre: <input type="text" required title="Ingresar el nombre" 
+                               oninput="setCustomValidity('')"
+                               oninvalid="setCustomValidity('EL nombre es requerido')"/>
+            </p>
+            <p>
+                <button type="submit" value="Enviar">Enviar</button>
+            </p>
+        </form>
+    </section>
+    <footer>
+        Nuestra dirección es Jr. Pedro Labarthe N°283.
+        &copy; Todos los derechos reservados a VitoCold.
+    </footer>
+</body>
+</html>

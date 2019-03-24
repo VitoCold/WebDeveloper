@@ -1,0 +1,91 @@
+﻿body div#fondo{
+    background-image:url("../Imagenes/img_tree.png");
+    background-repeat:no-repeat;
+    background-position:right top;
+    background-attachment:fixed;
+
+}
+
+p.puntos{
+    border-style:double;
+}
+
+a:link,a:visited{
+    background-color:purple;
+    color:white;
+    padding:10px 25px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-right-radius:15px;
+}
+a:hover, a:active {
+    background-color: red;
+}
+/*Selectores*/
+/*Todos los <p> anidados o dentro de un <div>*/
+div p{
+    background-color:aqua;
+}
+/*Todos los <p> que tienen directamente un padre <div>*/
+div>p {
+    background-color: green;
+}
+/*El primer <p> que sigue a un <div>*/
+div + p {
+    background-color: red;
+}
+/*Todos los <p> que siguen a un <div>*/
+div ~ p {
+    background-color: yellow;
+}
+
+img{
+    opacity:0.5;
+
+}
+img:hover{
+    opacity:1.0;
+}
+input[type="text"] {
+    width: 150px;
+    height:50px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: teal;
+    margin-left: 35px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+input[type="text"]#search {
+    width: 100%;
+  box-sizing:border-box;
+  border:2px solid #808080;
+  border-radius:10px;
+  font-size:16px;
+  background-color:white;
+  background-image:url(../Imagenes/searchicon.png);
+  background-position:10px 10px;
+  background-repeat:no-repeat;
+  padding:12px 20px 12px 40px;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+    background-color: darkgreen;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    cursor: pointer;
+    width: 120px;
+    margin: 4px 2px;
+    /*display: block;*/
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
