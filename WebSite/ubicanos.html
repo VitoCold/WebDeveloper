@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-    <title>Bienvenidos al web site</title>
+    <title>Bienvenidos a la WEB</title>
     <link href="Styles/stylesSASS.css" rel="stylesheet" />
 </head>
 <body>
     <header>
         <a class="headerLogo" href="index.html">
-            <img src="images/cibertec.jpg" />
+            <img src="Imagenes/img_forest.jpg" />
         </a>
         <nav class="dropdown">
             <button class="menu-title">Menu</button>
@@ -21,16 +21,17 @@
             </ul>
         </nav>
     </header>
+    <h3>Nuestra ubicación</h3>
     <section>
-        <h3>Bienvenidos a Cibertec</h3>
-        <span>
-            La División de Alta Tecnologia..... <mark>LAB CAP 02</mark>
-        </span>
+        <div id="googleMap" class="map">
+        </div>
     </section>
     <footer>
-        Nuestra dirección
-        &copy; Todos los derechos reservados a Cibertec - <span id="date"></span>
+        Nuestra dirección es Jr. Pedro Labarthe N°283.
+        &copy; Todos los derechos reservados a VitoCold. - <span id="date"></span>
     </footer>
+    <script src="scripts/map.js"></script>
     <script src="scripts/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBVQvFy2GC_VmYGtYXCMuj7u9E9idHSCU&callback=cibertec.getLocation"></script>
 </body>
 </html>

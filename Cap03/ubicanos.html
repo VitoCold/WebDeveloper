@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-    <title>Bienvenidos al web site</title>
-    <link href="Styles/stylesSASS.css" rel="stylesheet" />
+    <title>Bienvenidos a Cibertec Web Site</title>
+    <link href="styles/stylesSASS.css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -21,16 +21,16 @@
             </ul>
         </nav>
     </header>
+    <h3>Nuestra ubicación</h3>
     <section>
-        <h3>Bienvenidos a Cibertec</h3>
-        <span>
-            La División de Alta Tecnologia..... <mark>LAB CAP 02</mark>
-        </span>
+        <div id="googleMap" style="width:300px;height:300px;"></div>
     </section>
     <footer>
         Nuestra dirección
         &copy; Todos los derechos reservados a Cibertec - <span id="date"></span>
     </footer>
+    <script src="scripts/map.js"></script>
     <script src="scripts/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBDk5IDMZC02SuA81mkm5J_CgvjJfHR4I&callback=cibertec.getLocation"></script>
 </body>
 </html>

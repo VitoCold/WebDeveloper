@@ -113,8 +113,10 @@
     <Content Include="ResponsiveBootstrap.html" />
     <Content Include="scripts\ejemplos.js" />
     <Content Include="scripts\index.js" />
+    <Content Include="scripts\map.js" />
     <Content Include="scripts\module.js" />
     <Content Include="scripts\objectLiterals.js" />
+    <Content Include="scripts\video.js" />
     <Content Include="Styles\samples.css" />
     <Content Include="Styles\styles.css" />
     <Content Include="Styles\stylesSASS.css" />
@@ -123,6 +125,7 @@
     </Content>
     <Content Include="SVG.html" />
     <Content Include="TagsSemanticos.html" />
+    <Content Include="ubicanos.html" />
     <Content Include="Videos\big-buck-bunny_trailer.webm" />
     <Content Include="Videos\HTML5Sample_H264.mov" />
     <Content Include="Videos\HTML5Sample_WebM.webm" />
@@ -157,6 +160,7 @@
     <Content Include="scss\base\_navigation.scss" />
     <Content Include="scss\base\_button.scss" />
     <Content Include="scss\base\_input.scss" />
+    <Content Include="scss\components\_map.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -164,9 +168,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="scss\components\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
