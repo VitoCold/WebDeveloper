@@ -16,6 +16,7 @@ namespace WebMVCcap04.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            ViewBag.Mensajes2 = "Este es otro mensaje";
 
             return View();
         }

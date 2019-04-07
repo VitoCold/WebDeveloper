@@ -85,3 +85,7 @@ C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\obj\Debug\WebMVCcap04.csp
 C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\obj\Debug\WebMVCcap04.csproj.CopyComplete
 C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\obj\Debug\WebMVCcap04.dll
 C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\obj\Debug\WebMVCcap04.pdb
+C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\bin\EntityFramework.dll
+C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\bin\EntityFramework.SqlServer.dll
+C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\bin\EntityFramework.xml
+C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\bin\EntityFramework.SqlServer.xml
