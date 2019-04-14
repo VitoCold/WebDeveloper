@@ -17,7 +17,7 @@ namespace WebMVCcap04.Models
         [DataType(DataType.Date)]
         [Required(ErrorMessage ="Ingrese la fecha de lanzamiento")]
         [Display(Name = "Fecha de lanzamiento")]
-        [DisplayFormat(ApplyFormatInEditMode =true,DataFormatString ="{0:dd-MM-yyyy}")]
+        [DisplayFormat(ApplyFormatInEditMode =true,DataFormatString ="{0:yyyy-MM-dd}")]
         public DateTime ReleaseDate { get; set; }
 
         [Required(ErrorMessage ="Ingrese el género de la película")]

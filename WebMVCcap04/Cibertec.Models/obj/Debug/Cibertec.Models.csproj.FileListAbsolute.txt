@@ -1,0 +1,12 @@
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.Models\bin\Debug\Cibertec.Models.dll
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.Models\bin\Debug\Cibertec.Models.pdb
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.Models\obj\Debug\Cibertec.Models.csprojAssemblyReference.cache
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.Models\obj\Debug\Cibertec.Models.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.Models\obj\Debug\Cibertec.Models.dll
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.Models\obj\Debug\Cibertec.Models.pdb
+C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\Cibertec.Models\bin\Debug\Cibertec.Models.dll
+C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\Cibertec.Models\bin\Debug\Cibertec.Models.pdb
+C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\Cibertec.Models\obj\Debug\Cibertec.Models.csprojAssemblyReference.cache
+C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\Cibertec.Models\obj\Debug\Cibertec.Models.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\Cibertec.Models\obj\Debug\Cibertec.Models.dll
+C:\Users\VS2017-WEB\Documents\WebDeveloper\WebMVCcap04\Cibertec.Models\obj\Debug\Cibertec.Models.pdb
