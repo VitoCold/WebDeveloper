@@ -19,28 +19,26 @@ namespace Cibertec.MVC
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             //Ruta estática
-            routes.MapRoute(
-                name: "ClientesEstatica",
-                url: "Clientes",
-                defaults: new { controller = "Customer", action = "Index"}
-            );
+            //routes.MapRoute(
+            //    name: "ClientesEstatica",
+            //    url: "Clientes",
+            //    defaults: new { controller = "Customer", action = "Index"}
+            //);
 
-            //Ruta dinámica
-            routes.MapRoute(
+            ////Ruta dinámica
+            //routes.MapRoute(
+            //    name: "ClientesDinamica",
+            //    url:"Clientes/{id}/{action}",
+            //    defaults: new {controller="Customer", action="Details"},
+            //    constraints: new {id=@"\d+"}
+            //        );
 
-                name: "ClientesDinamica",
-                url:"Clientes/{id}/{action}",
-                defaults: new {controller="Customer", action="Details"},
-                constraints: new {id=@"\d+"}
-                    );
-
-            //Ruta SEO
-            routes.MapRoute(
-
-                name: "ClientesSEO",
-                url: "{clientName}",
-                defaults: new { controller = "Customer", action = "DetailsName" }
-                    );
+            ////Ruta SEO
+            //routes.MapRoute(
+            //    name: "ClientesSEO",
+            //    url: "{clientName}",
+            //    defaults: new { controller = "Customer", action = "DetailsName" }
+            //        );
 
             //Esto es el metodo generico, siempre se deja al final
             //OJOOOOOO

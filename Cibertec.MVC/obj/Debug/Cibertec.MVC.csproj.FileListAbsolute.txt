@@ -131,3 +131,11 @@ C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.MVC\bin\Cibertec.UnitOfWork.
 C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.MVC\bin\Cibertec.Models.pdb
 C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.MVC\bin\Dapper.Contrib.xml
 C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.MVC\bin\Dapper.xml
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.MVC\bin\SimpleInjector.dll
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.MVC\bin\SimpleInjector.Integration.Web.dll
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.MVC\bin\SimpleInjector.Integration.Web.Mvc.dll
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.MVC\bin\SimpleInjector.xml
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.MVC\bin\SimpleInjector.Integration.Web.xml
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.MVC\bin\SimpleInjector.Integration.Web.Mvc.xml
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.MVC\bin\log4net.dll
+C:\Users\VS2017-WEB\Documents\WebDeveloper\Cibertec.MVC\bin\log4net.xml

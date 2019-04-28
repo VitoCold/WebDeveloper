@@ -7,21 +7,24 @@ using System.Web.Mvc;
 using Cibertec.Repositories.Dapper.Northwind;
 using System.Configuration;
 using Cibertec.Models;
+using log4net;
 
 namespace Cibertec.MVC.Controllers
 {
-    public class CustomerController : Controller
+    public class CustomerController : BaseController
     {
-        private readonly IUnitOfWork _unit;
+        //private readonly IUnitOfWork _unit;
 
-        public CustomerController()
+        public CustomerController(ILog log, IUnitOfWork unit):base(log,unit)
         {
-            _unit = new NorthwindUnitOfWork(
-                ConfigurationManager.ConnectionStrings["NorthwindConnection"].ConnectionString);
+            //_unit = new NorthwindUnitOfWork(
+            //    ConfigurationManager.ConnectionStrings["NorthwindConnection"].ConnectionString);
+            //_unit = unit;
          }
         // GET: Customer
         public ActionResult Index()
         {
+            _log.Info("");
             return View(_unit.Customers.GetList());
         }
 
@@ -32,10 +35,10 @@ namespace Cibertec.MVC.Controllers
 
         public ActionResult DetailsName(string clientName)
         {
-            return View("Details",nombreCliente(clientName));
+            return View("Details",NombreCliente(clientName));
         }
 
-        private Customer nombreCliente(string clienteName)
+        private Customer NombreCliente(string clienteName)
         {
             var result = new Customer();
       
@@ -44,12 +47,44 @@ namespace Cibertec.MVC.Controllers
                     var _cliente = _unit.Customers.GetList()
                                         .Where(q => q.FirstName == clienteName)
                                         .FirstOrDefault();
-
                 result = _cliente;
                 }
-
-            
             return result;
+        }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(Customer customer)
+        {
+            _unit.Customers.Insert(customer);
+
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult Edit(int id)
+        {
+            var customer = _unit.Customers.GetyById(id);
+            return View(customer);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Customer customer)
+        {
+           var result= _unit.Customers.Update(customer);
+
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult Delete(int id)
+        {
+            var customer = _unit.Customers.GetyById(id);
+            _unit.Customers.Delete(customer);
+
+            return RedirectToAction("Index");
         }
     }
 }
